@@ -1,0 +1,157 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+
+h1, h2, h3 {
+	color: 	#a2a2a2;
+	text-align: center;
+}
+
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px; }
+
+h1 { font-size: 50px; }
+
+table {
+	border-collapse: initial;
+  }
+  button {
+	outline: none;
+  }
+  #count_num {
+	font-size: 120px;
+	color: white;
+	position: absolute;
+	top: 30%;
+	right: 50%;
+	display: none;
+	z-index: 10;
+  }
+  .buttons {
+	width: 150px;
+	height: 40px;
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+	border-radius: 3px;
+	margin: 0 10px;
+  }
+  .racetrack-div {
+	margin-top: 20px;
+	background: url("./img/raceTrack.jpg");
+	height: 300px;
+	width: auto;
+	background-position: center;
+	background-size: contain;
+  }
+  .car {
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	left: 10px;
+  }
+  .car-1 {
+	top: 100px;
+  }
+  .car1-color-div,
+  .car2-color-div {
+	text-align: center;
+	width: 50%;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  .car1-result,
+  .car2-result {
+	width: 50%;
+	height: auto;
+	height: 70px;
+	border: 1px solid white;
+	margin: 0 20px;
+  }
+  .car1-result .car-1,
+  .car-2 {
+	top: 245px;
+  }
+  .car1-color {
+	color: white;
+  }
+  .car2-color {
+	color: #ba0000;
+  }
+  .race-results {
+	display: flex;
+	margin: 0 10px;
+  }
+  .present-results {
+	width: 50%;
+	display: flex;
+  }
+  #firstTable th,
+  #secondTable th {
+	width: 300px;
+	text-align: center;
+  }
+  #firstTable,
+  #secondTable {
+	margin: 0 20px;
+	max-width: 300px;
+  }
+  #firstTable td,
+  #secondTable td {
+	font-size: 15px;
+  }
+  #thirdTable td,
+  #fourthTable td {
+	width: 700px;
+	text-align: center;
+	font-size: 15px;
+  }
+  .race-heading {
+	width: 100%;
+	display: flex;
+	align-items: center;
+  }
+  .race-heading h2 {
+	width: 50%;
+  }
+  .race-heading h3 {
+	width: 50%;
+  }
+  .car-color-wrapper {
+	width: 50%;
+	display: flex;
+  }
+  .results {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+  .dynResults {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+  .flag {
+	background-image: url("./img/finish.gif");
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 45%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	display: none;
+  }
+  .pastResults-heading {
+	display: none;
+  }
+  .past-results {
+	display: none;
+  }
+  table td {
+	border: 1px solid white;
+	padding: 10px;
+	font-size: 15px;
+  }
